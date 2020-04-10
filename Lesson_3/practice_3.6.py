@@ -1,7 +1,7 @@
 def int_func():
     slow_lat_letter = input("Введите слово маленькими латинскими буквами: ")  # Ввод пользователского значения
     slow_lat_letter_after = []  # Объявление переменной для дальнейшего сравнения
-    if len(slow_lat_letter.split()) > 1:    # Условие выполнения функции для массового ввода
+    if len(slow_lat_letter.split()) > 1:  # Условие выполнения функции для массового ввода
         if all(96 < ord(i) < 123 or i == ' ' for i in slow_lat_letter):
             print(slow_lat_letter.title())
         else:
