@@ -8,4 +8,3 @@ with open("files/text_4.txt", "r", encoding="UTF-8") as english:
                           f" {chr(8212)}"
                           f" {i.split()[2]}\n")
     rus.close()
-
